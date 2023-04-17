@@ -259,7 +259,6 @@ nav {
   opacity: 0.7;
 }
 
-
 .project__wrapper--bg {
   position: absolute;
   top: 0;
@@ -289,3 +288,40 @@ nav {
   margin: 16px 0;
 }
 
+/* 
+
+
+  FOOTER
+
+  
+  */
+
+footer {
+  background-color: #242424;
+  display: flex;
+  padding: 6% 0;
+}
+
+.footer__row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__logo--img {
+  width: 90px;
+
+}
+
+.footer__social--list{
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  justify-content: space-around;
+  margin: 28px 0;
+}
+
+.footer__social--link,
+.footer__copyright {
+  color: white;
+}
