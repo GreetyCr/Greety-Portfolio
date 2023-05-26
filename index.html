@@ -13,11 +13,12 @@
     ></script>
     <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-</script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init("nuA-SiNznzXxQhc40");
-   })();
+    </script>
+    <script type="text/javascript">
+      (function(){
+          emailjs.init("nuA-SiNznzXxQhc40");
+      })();
+    </script>
 </script>
   </head>
   <body>
@@ -134,7 +135,7 @@
         <div class="modal__half modal__contact">
           <h3 class="modal__title modal__title--contact">Let's have a chat</h3>
           <h3 class="modal__sub-title modal__sub-title--contact">I'm currently open to new opportunities.</h3>
-          <form id="contact__form" onsubmit="contact()">
+          <form id="contact__form" onsubmit="contact(event)">
             <div class="form__item">
               <label class="for__item--label">Name</label>
               <input class="input" type="text" name="user_name" required></input>
