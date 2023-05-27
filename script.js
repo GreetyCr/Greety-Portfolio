@@ -23,3 +23,8 @@ function contact(event) {
       alert("The email service is temporary unavailable. Please contact me directly on greetysoftwarejs@gmail.com")
     })
 }
+
+function toggleModal() {
+  //toggle modal
+  
+}
