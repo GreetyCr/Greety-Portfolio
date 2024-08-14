@@ -7,19 +7,16 @@
     <title>Greety Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
     <script
-      src="https://kit.fontawesome.com/c8e4d183c2.js"
-      crossorigin="anonymous"
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
     ></script>
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-    </script>
     <script type="text/javascript">
-      (function(){
-          emailjs.init("nuA-SiNznzXxQhc40");
+      (function () {
+        emailjs.init("nuA-SiNznzXxQhc40");
       })();
     </script>
-</script>
   </head>
   <body>
     <section id="landing-page" onmousemove="moveBackground(event)">
@@ -155,11 +152,11 @@
           <form id="contact__form" onsubmit="contact(event)">
             <div class="form__item">
               <label class="for__item--label">Name</label>
-              <input class="input" type="text" name="user_name" required></input>
+              <input class="input" type="text" name="user_name" required />
             </div>
             <div class="form__item">
               <label class="for__item--label">Email</label>
-              <input class="input" type="email" name="user_email" required></input>
+              <input class="input" type="email" name="user_email" required />
             </div>
             <div class="form__item">
               <label class="for__item--label">Message</label>
@@ -195,6 +192,59 @@
             Here are some of my <span class="orange">projects</span>
           </h1>
           <ul class="project__list">
+
+            <li class="project">
+              <div class="project__wrapper">
+                <img
+                  src="./assets/Budget-Tracker.png"
+                  class="project__img"
+                  alt="project img"
+                />
+                <div class="project__wrapper--bg"></div>
+                <div class="project__description">
+                  <h3 class="project__description--title">
+                    Budget-Tracker
+                  </h3>
+                  <h4 class="project__description--sub-title">
+                    Nextjs 14: API routes and ServerActions
+                    - Auth with Clerk
+                    - Typescript
+                    - Tailwindcss / Shadcn UI
+                    - SQLite / Vercel PostgreSQL
+                    - Prisma as ORM
+                    - React-query
+                    - Recharts
+
+                  </h4>
+                  <p class="project__description--para">
+                    The features of this project are: 
+                    <br/>
+                    Transaction Management
+                    - Category Statistics
+                    - Historical Data Aggregates
+                    - Stunning Charts
+                    - Icon Selector for Categories
+                  </p> 
+                  <div class="project__description--links">
+                    <a
+                      href="https://github.com/GreetyCr/budget-tracker"
+                      class="project__description--link"
+                      target="_blank"
+                    >
+                      <i class="fab fa-github"></i>
+                    </a>
+                    <a
+                      href="https://budget-tracker-bice-two.vercel.app/"
+                      class="project__description--link"
+                      target="_blank"
+                    >
+                      <i class="fas fa-link"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            
             <li class="project">
               <div class="project__wrapper">
                 <img
@@ -213,14 +263,14 @@
                   </p>
                   <div class="project__description--links">
                     <a
-                      href="https://netflix-clone-tw-git-main-greetycr.vercel.app/login"
+                      href="https://github.com/GreetyCr/netflix-clone-tw"
                       class="project__description--link"
                       target="_blank"
                     >
                       <i class="fab fa-github"></i>
                     </a>
                     <a
-                      href="https://github.com/GreetyCr/netflix-clone-tw"
+                      href="https://netflix-clone-tw-git-main-greetycr.vercel.app/login"
                       class="project__description--link"
                       target="_blank"
                     >
@@ -251,14 +301,14 @@
                   </p> 
                   <div class="project__description--links">
                     <a
-                      href="https://github.com/GreetyCr/Clone_Of_Treact_HTML_CSS"
+                      href="https://github.com/GreetyCr/MichiLanding"
                       class="project__description--link"
                       target="_blank"
                     >
                       <i class="fab fa-github"></i>
                     </a>
                     <a
-                      href="https://greetycr.github.io/Clone_Of_Treact_HTML_CSS/"
+                      href="https://www.parmesano.org/"
                       class="project__description--link"
                       target="_blank"
                     >
